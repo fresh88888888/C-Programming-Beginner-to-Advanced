@@ -95,7 +95,7 @@ Makefile有三个非常有用的变量。分别是$@，$^，$<代表的意义分
 
 - transforming from base class pointer or reference to derived class pointer or reference , at run time.
 - makes it possible to can non polymorphic methods on derived objects.
-
+- overusing down casts is a sign of bad design , if you find yourself doing this a lot to call polymorphic functions on derived objects , may be you shoud make that function polymorphic in the first place.
 
 #### 最好的c plus plus youtube 频道：
 
