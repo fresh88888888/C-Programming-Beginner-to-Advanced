@@ -97,6 +97,19 @@ Makefile有三个非常有用的变量。分别是$@，$^，$<代表的意义分
 - makes it possible to can non polymorphic methods on derived objects.
 - overusing down casts is a sign of bad design , if you find yourself doing this a lot to call polymorphic functions on derived objects , may be you shoud make that function polymorphic in the first place.
 
+#### abstract class
+- if a class has at least one pure virtual function, it becomes an abstract class.
+- you can't create object s of an abstract class , if you do that, you'll get a hard compiler error.
+- derived clases from an abstract class must explicitly override all the pure virtual function from the abstract parent class , if they don't they themselves become abstract. 
+- pure virtual function don't have an implementation in the abstract class, they are mean to be implemented by derived class .
+- you can't call the pure virtual function from the constructor of the abstract class.
+- the constructor of the abstract class is used by deriving class to build up the base part of the object.
+
+#### abstract class as interface
+- an abstract class with only pure virtual functions and no member variable can be used to model what is called an interface in object oriented programing.
+- an interface is a specification of something that will be fully implemented in a derived class , but the specification itself resides in the abstract class.
+
+
 #### 最好的c plus plus youtube 频道：
 
 - C++ Weekly With Jason Turner
