@@ -116,6 +116,7 @@ Makefile有三个非常有用的变量。分别是$@，$^，$<代表的意义分
 - The Cherno
 - CppCon (Data-Oriented Design and C++)
 - Casey Muratori, MollyRocket
+- freeCodeCamp.org
 - Humble Bundle: https://www.humblebundle.com
 - Learn OpenGL: https://learnopengl.com/
 - Automate the Boring Stuff - Free to read! I didn’t know this at the time of recording: https://automatetheboringstuff.com/
